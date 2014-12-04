@@ -1,0 +1,3 @@
+[submodule "themes/jade-barebone"]
+	path = themes/jade-barebone
+	url = https://github.com/widatama/hexo-jade-barebone.git
