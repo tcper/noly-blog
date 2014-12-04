@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[知心哥哥在此]]></title>
+  
+  <link href="/noly-blog/atom.xml" rel="self"/>
+  <link href="http://tcper.github.io/noly-blog/"/>
+  <updated>2014-12-04T08:19:49.315Z</updated>
+  <id>http://tcper.github.io/noly-blog/</id>
+  
+  <author>
+    <name><![CDATA[Loki]]></name>
+    <email><![CDATA[lokitangl@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[谈谈HTML5和webkit]]></title>
+    <link href="http://tcper.github.io/noly-blog/2014/12/03/html5-and-webkit/"/>
+    <id>http://tcper.github.io/noly-blog/2014/12/03/html5-and-webkit/</id>
+    <published>2014-12-04T07:53:41.000Z</published>
+    <updated>2014-12-04T07:54:33.000Z</updated>
+    <content type="html"><![CDATA[<p>最近看了豆瓣云音乐码农和和intel朱永盛谈webkit，HTML5的视频，朱永盛的观点主要就是</p>
+<ul>
+<li>webkit跨平台的，所以好好好</li>
+<li>HTML5因为用了webkit，所以好好好</li>
+</ul>
+<p>仔细想了一下这个问题，包括他提到未来可能提供一个跨PC(Windows, OS X, Linux), Mobile(Android, iOS)的<code>WebView</code>，事实上他们做的这个事情和Adobe的Flash/AIR区别不大：</p>
+<ul>
+<li>底层runtime:<ul>
+<li>web/native =&gt; Flash/AIR </li>
+<li>web/native =&gt; Browser/WebView</li>
+</ul>
+</li>
+<li>解释器：<ul>
+<li>avm2</li>
+<li>v8 engine</li>
+</ul>
+</li>
+</ul>
+<p>现在看，webkit从指标上并没有超过Flash/AIR, canvas渲染，SVG，WebGL各方面超过了吗？我看没有。工具链上webkit更是差得远。技术这个事情上是个占山头的游戏，你Adobe推的东西我不能受制于你，我就是不用，Borland被MS折腾的故事历历在目呢。而webkit不属于任何一个大公司，所以大家都可以支持它，这就是一个妥协的产物。只能用JS写代码真的好吗？HTML去写界面真的好吗？好不好没人关心，它只是妥协的产物。</p>
+<p>后面关于webkit跨平台，朱永盛还提到一个问题就是没有一个<code>官方打包的webkit</code>，豆瓣的<code>OneRing</code>是解决这个问题的，<code>node-webkit</code>是解决这个问题的，听说豌豆荚也自己搞了一个<code>OneRing</code>修改版解决这个问题，想用webkit做跨平台仍然是相当之麻烦的。<code>node-webkit</code>你敢用吗？<code>OneRing</code>你敢用吗？狠狠心用了，最后各种问题需要解决，而且安装包贼大。</p>
+<p>webkit开源能够让巨头们搭成妥协这是它的优势，但是这使得webkit包含的音视频解码器涉及专利问题迟迟得不到解决，这也是开源的劣势，没娘的孩子嘛。</p>
+<p>最后就是，我希望能够有个终结一切的跨平台框架诞生，webkit是最有希望的，但也不代表别的技术没有机会。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近看了豆瓣云音乐码农和和intel朱永盛谈webkit，HTML5的视频，朱永盛的观点主要就是</p>
+<ul>
+<li>webkit跨平台的，所以好好好</li>
+<li>HTML5因为用了webkit，所以好好好</li>
+</ul>
+<p>仔细想了一下这个问题，包括]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[谈谈众筹骗局]]></title>
+    <link href="http://tcper.github.io/noly-blog/2014/12/03/crowdfunding-fraud/"/>
+    <id>http://tcper.github.io/noly-blog/2014/12/03/crowdfunding-fraud/</id>
+    <published>2014-12-04T06:49:58.000Z</published>
+    <updated>2014-12-04T07:50:39.000Z</updated>
+    <content type="html"><![CDATA[<p>最近曝光的众筹骗局有点多，傲逆的水晶战争和土曼手表共同的特点就是：给投资者者一个完美的期待，费尽所有力量制作一个完美的宣传视频和效果图，骗到钱之后根本没有能力兑现自己的承诺。人会为希望买单，彩票、股市莫不如此。</p>
+<p>众筹的特点是：建立一个股东没有话语权的乌托邦。这个乌托邦成立的必要条件是，世界上有茫茫多被埋没的天才，只要他们拥有资源就能够创造奇迹。结果众筹制造了一群群望眼欲穿的股东，一个个肆无忌惮的CEO，和一个个永远无法兑现的承诺。这是何等之荒谬。</p>
+<p>反过来想，资本主义是人类验证了几百年的真理，如果一个众筹就能突破那也太简单了。被埋没的天才是极少的，能在众筹网站碰上的概率几乎是零。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近曝光的众筹骗局有点多，傲逆的水晶战争和土曼手表共同的特点就是：给投资者者一个完美的期待，费尽所有力量制作一个完美的宣传视频和效果图，骗到钱之后根本没有能力兑现自己的承诺。人会为希望买单，彩票、股市莫不如此。</p>
+<p>众筹的特点是：建立一个股东没有话语权的乌托邦。这]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://tcper.github.io/noly-blog/2014/12/03/hello-world/"/>
+    <id>http://tcper.github.io/noly-blog/2014/12/03/hello-world/</id>
+    <published>2014-12-04T03:34:24.000Z</published>
+    <updated>2014-12-04T03:34:24.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
